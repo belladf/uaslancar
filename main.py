@@ -198,8 +198,8 @@ def no1d():
 #home
 def home():
 
-    st.markdown("<h1 style='text-align: center; color: black;'> Nama Kamu </h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: black;'> Streamlit produksi minyak mentah </h2>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: black;'> Bella Dina Fitriyani </h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: black;'> Data produksi minyak mentah </h2>", unsafe_allow_html=True)
 
 #fungsi di panggil dibawah
 
@@ -210,7 +210,7 @@ FITUR = OrderedDict(
     [
         ("HOME", (home, None)),
         (
-            "Fitur 1.a",
+            "Nomer 1.a",
             (
                 no1a,
                 """
@@ -221,7 +221,7 @@ FITUR = OrderedDict(
             ),
         ),
         (
-            "Fitur 1.b",
+            "Nomer 1.b",
             (
                 no1b,
                 """
@@ -231,7 +231,7 @@ FITUR = OrderedDict(
             ),
         ),
         (
-            "Fitur 1.c",
+            "Nomer 1.c",
             (
                 no1c,
                 """
@@ -241,7 +241,7 @@ FITUR = OrderedDict(
             ),
         ),
         (
-            "Fitur 1.d",
+            "Nomer 1.d",
             (
                 no1d,
                 """
@@ -255,7 +255,7 @@ FITUR = OrderedDict(
 
 
 def run():
-    demo_name = st.sidebar.selectbox("Silahkan fitur yang kamu pilih", list(FITUR.keys()), 0)
+    demo_name = st.sidebar.selectbox("Silahkan pilih fitur yang diinginkan ", list(FITUR.keys()), 0)
 
     demo = FITUR[demo_name][0]
     if demo_name == "HOME":
