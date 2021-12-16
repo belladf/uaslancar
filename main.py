@@ -201,8 +201,8 @@ def home():
     st.markdown("<h1 style='text-align: center; color: black;'> Bella Dina Fitriyani </h1>", unsafe_allow_html=True)
     st.markdown("<h2 style='text-align: center; color: black;'> Data produksi minyak mentah </h2>", unsafe_allow_html=True)
     image1,image2 = st.columns((1,1))
-    image1.image = ("logo_itb_1024.png")
-    image2.image = ("LOGO_bg putih.png")
+   
+    st.image = ("LOGO_bg putih.png")
 #fungsi di panggil dibawah
 
 LOGGER = get_logger(__name__)
