@@ -214,9 +214,8 @@ FITUR = OrderedDict(
             (
                 no1a,
                 """
-                Grafik jumlah produksi minyak mentah terhadap waktu (tahun) dari suatu negara N, dimana nilai
-                N dapat dipilih oleh user secara interaktif. Nama negara N dituliskan secara lengkap bukan kode
-                negaranya.
+                Berikut adalah grafik jumlah produksi minyak mentah terhadap waktu (tahun) dari suatu negara. Negara
+                dapat dipilih oleh user.
                 """,
             ),
         ),
@@ -225,8 +224,8 @@ FITUR = OrderedDict(
             (
                 no1b,
                 """
-                Grafik yang menunjukan B-besar negara dengan jumlah produksi terbesar pada tahun T, dimana
-                nilai B dan T dapat dipilih oleh user secara interaktif.
+                Grafik ini menunjukkan n-besar negara dengan jumlah produksi terbesar pada tahun-x. User dapat memilih
+                nilai n (banyak negara) dan x(tahun).
                 """,
             ),
         ),
@@ -235,8 +234,8 @@ FITUR = OrderedDict(
             (
                 no1c,
                 """
-                Grafik yang menunjukan B-besar negara dengan jumlah produksi terbesar secara kumulatif
-                keseluruhan tahun, dimana nilai B dapat dipilih oleh user secara interaktif.
+                Grafik ini menunjukan n-besar negara dengan jumlah produksi terbesar dari
+                keseluruhan tahun. User dapat memilih nilai n(banyak negara).
                 """,
             ),
         ),
@@ -245,7 +244,10 @@ FITUR = OrderedDict(
             (
                 no1d,
                 """
-                Informasi yang menyebutkan: (1) nama lengkap negara, kode negara, region, dan sub-region dengan jumlah produksi terbesar pada tahun T dan keseluruhan tahun. (1) nama lengkap negara, kode negara, region, dan sub-region dengan jumlah produksi terkecil (tidak sama dengan nol) pada tahun T dan keseluruhan tahun. (1) nama lengkap negara, kode negara, region, dan subregion dengan jumlah produksi sama dengan nol pada tahun T dan keseluruhan tahun.
+                Informasi yang menyebutkan:
+                -nama lengkap negara, kode negara, region, dan sub-region dengan jumlah produksi terbesar pada tahun x dan keseluruhan tahun.
+                -nama lengkap negara, kode negara, region, dan sub-region dengan jumlah produksi terkecil (tidak sama dengan nol) pada tahun x dan keseluruhan tahun.
+                -nama lengkap negara, kode negara, region, dan subregion dengan jumlah produksi sama dengan nol pada tahun x dan keseluruhan tahun.
                 """,
             ),
         ),
