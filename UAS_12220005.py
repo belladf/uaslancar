@@ -2,7 +2,7 @@
 #12220005
 #UAS Prokom
 
-#mpanggil beberapa library
+#memanggil beberapa library
 
 import streamlit as st
 import time
