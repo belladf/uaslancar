@@ -244,9 +244,9 @@ FITUR = OrderedDict(
             (
                 no1d,
                 """
-                Informasi yang menyebutkan:
-                -nama lengkap negara, kode negara, region, dan sub-region dengan jumlah produksi terbesar pada tahun x dan keseluruhan tahun.
-                -nama lengkap negara, kode negara, region, dan sub-region dengan jumlah produksi terkecil (tidak sama dengan nol) pada tahun x dan keseluruhan tahun.
+                Informasi yang menyebutkan:\n
+                -nama lengkap negara, kode negara, region, dan sub-region dengan jumlah produksi terbesar pada tahun x dan keseluruhan tahun.\n
+                -nama lengkap negara, kode negara, region, dan sub-region dengan jumlah produksi terkecil (tidak sama dengan nol) pada tahun x dan keseluruhan tahun.\n
                 -nama lengkap negara, kode negara, region, dan subregion dengan jumlah produksi sama dengan nol pada tahun x dan keseluruhan tahun.
                 """,
             ),
