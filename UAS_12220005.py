@@ -202,8 +202,8 @@ def no1d():
 #home
 def home():
 
-    st.markdown("<h1 style='text-align: center; color: blue;'> Bella Dina Fitriyani </h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: left; color: blue;'> Data produksi minyak mentah </h2>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: black;'> Data Produksi Minyak Mentah </h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: black;'> Oleh Bella Dina Fitriyani </h2>", unsafe_allow_html=True)
 
 #fungsi di panggil dibawah
 
