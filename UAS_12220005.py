@@ -1,4 +1,8 @@
-#panggil beberapa library yang dibutuhkan
+#Bella Dina Fitriyani
+#12220005
+#UAS Prokom
+
+#mpanggil beberapa library
 
 import streamlit as st
 import time
@@ -21,7 +25,7 @@ background-size: cover; } </style>
 
 st.markdown(background, unsafe_allow_html=True)
 
-#-------create function def-------------
+#-------create function def-------
 
 # baca data json dan csv
 df1 = pd.read_json("kode_negara_lengkap.json")
@@ -210,7 +214,7 @@ FITUR = OrderedDict(
     [
         ("HOME", (home, None)),
         (
-            "Nomer 1.a",
+            "Nomor 1.a",
             (
                 no1a,
                 """
@@ -220,7 +224,7 @@ FITUR = OrderedDict(
             ),
         ),
         (
-            "Nomer 1.b",
+            "Nomor 1.b",
             (
                 no1b,
                 """
@@ -230,7 +234,7 @@ FITUR = OrderedDict(
             ),
         ),
         (
-            "Nomer 1.c",
+            "Nomor 1.c",
             (
                 no1c,
                 """
@@ -240,7 +244,7 @@ FITUR = OrderedDict(
             ),
         ),
         (
-            "Nomer 1.d",
+            "Nomor 1.d",
             (
                 no1d,
                 """
